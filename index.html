@@ -6,6 +6,7 @@
   <title>Portfolio de Guillermo Morcillo Carmona</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
  
@@ -27,6 +28,15 @@
     <h2 class="intro-subtitulo">Estudiante de desarrollo web</h2>
     <br>
     <p class="intro-descripcion">Apasionado por crear aplicaciones útiles y bien diseñadas.</p>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/guillermo-morcillo-carmona-a4887b312/" class="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/GuilleMorCar" class="github" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://steamcommunity.com/profiles/76561198277603309/" class="steam" target="_blank"><i class="fab fa-steam"></i></a>
+      <a href="https://www.instagram.com/gu1ll3_01/" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.tiktok.com/@guimopa" class="tiktok" target="_blank"><i class="fab fa-tiktok"></i></a>
+      <a href="https://discordapp.com/users/341262806320152577" class="discord" target="_blank"><i class="fab fa-discord"></i></a>
+    </div>
   </div>
 </section>
 
@@ -68,6 +78,7 @@
 </section>
 
 
+
   <section id="proyecto">
   <div class="section-box">
     <h2 class="section-title">💻 Proyecto destacado</h2>
@@ -85,19 +96,25 @@
   </div>
 </section>
 
- 
 <section id="contacto">
   <div class="section-box">
-    <h2 class="section-title">🔗 Enlaces</h2>
+    <h2 class="section-title">📬 Contacto</h2>
 
-      <div class="badges">
-        <a href="https://github.com/GuilleMorCar" target="_blank">GitHub</a>
-        <a href="mailto:tuemail@example.com">Email</a>
-        <a href="https://linkedin.com/in/tu-usuario" target="_blank">LinkedIn</a>
-      </div>
-    </div>
+    <form action="mailto:guille.onda.2020@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+      <label for="name">Nombre</label>
+      <input type="text" id="name" name="name" placeholder="Escribe tu nombre aquí" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Escribe tu email aquí" required>
+
+      <label for="message">Tu mensaje</label>
+      <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
   </div>
 </section>
+
 
   <footer>
     <p>© GuilleMorCar - Portfolio 2025</p>
