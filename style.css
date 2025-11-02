@@ -374,3 +374,7 @@ footer {
   margin-top: 60px;
   font-size: 0.95em;
 }
+
+footer p {
+  line-height: 2.8;
+}
