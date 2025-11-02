@@ -352,3 +352,19 @@ footer {
   margin-top: 60px;
   font-size: 0.95em;
 }
+
+.proyecto-grid {
+  flex-direction: row;
+}
+
+.preview-box {
+  order: 1;
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.sql-box {
+  order: 2;
+  flex: 1 1 400px;
+  max-width: 500px;
+}
