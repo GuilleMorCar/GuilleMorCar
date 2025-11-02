@@ -1,4 +1,4 @@
-# 📺 Anime & Manga 📺
+## 📺 Anime & Manga 📺
 
 ## 🎬 Animes favoritos 🎬
 
