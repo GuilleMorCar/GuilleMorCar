@@ -1,4 +1,4 @@
-## 🎮 Gaming 🎮
+# 🎮 Gaming 🎮
 
 - **🕹️ *Steam*:** [Mi perfil](https://steamcommunity.com/profiles/76561198277603309/)
   
