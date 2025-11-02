@@ -1,28 +1,29 @@
 # 📺 Anime & Manga
 
 ## 🎬 Animes favoritos
+
 - Steins;Gate
 - Fullmetal Alchemist: Brotherhood
-- Hunter x Hunter
-- Chainsaw Man
+- Re:Zero
+- Oregairu
 - Jujutsu Kaisen
-- Death Note
-- Mob Psycho 100
+- Dandadan
+- One Punch Man
 
-## 📚 Mangas que sigo
-- One Piece
-- Solo Leveling
-- Tokyo Revengers
-- Attack on Titan
-- Blue Lock
+## 📚 Mangas y Manhwas que sigo
+
+- One Punch Man
+- Shuumatsu no Valkyrie
+- El Matón al Mando
+- A Sense of Amusement
 
 ## 🎨 Géneros que me gustan
-- Psicología, ciencia ficción, thriller
-- Shonen con buena narrativa
-- Slice of life con personajes bien escritos
+- Ciencia ficción y viajes en el tiempo con carga emocional
+- Shonen con buena narrativa y desarrollo de personajes
+- Slice of life con profundidad emocional
 
 ## 🧠 Lo que me inspira
-Me encanta cómo el anime mezcla emoción, filosofía y estética. Me influye en cómo pienso, diseño y creo cosas.  
+Me encanta cómo el anime mezcla emoción, filosofía y estética. Influye en cómo pienso, diseño y creo cosas.  
 La narrativa de Steins;Gate, por ejemplo, me hizo interesarme más por la programación y las paradojas temporales.
 
 ## 🔗 Recomendaciones
