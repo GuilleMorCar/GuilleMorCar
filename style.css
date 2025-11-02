@@ -354,17 +354,17 @@ footer {
 }
 
 .proyecto-grid {
-  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap; /* evita que se apilen */
+  gap: 40px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 40px 0;
+  width: 100%;
 }
 
-.preview-box {
-  order: 1;
-  flex: 1 1 400px;
-  max-width: 500px;
-}
-
+.preview-box,
 .sql-box {
-  order: 2;
-  flex: 1 1 400px;
-  max-width: 500px;
+  flex: 1 1 45%;
+  max-width: 45%;
 }
