@@ -88,7 +88,7 @@
 
 
 
-  <section id="proyecto">
+<section id="proyecto">
   <div class="section-box">
     <h2 class="section-title">💻 Proyecto destacado</h2>
 
@@ -101,6 +101,40 @@
         <li><strong>Base de datos:</strong> MySQL</li>
         <li><strong>Funcionalidad:</strong> Registro de horas de inicio y fin, con nombre y DNI como clave primaria.</li>
       </ul>
+
+      <div class="proyecto-grid">
+        <!-- Imagen del proyecto -->
+        <div class="preview-box">
+          <img src="img/fotoproyecto.png" alt="Vista previa del proyecto">
+        </div>
+
+        <!-- Código SQL -->
+        <div class="sql-box">
+          <h4>📊 Estructura de la base de datos</h4>
+          <pre><code>
+CREATE TABLE personas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nombre VARCHAR(255) NOT NULL,
+  identificador VARCHAR(255) UNIQUE NOT NULL
+);
+
+CREATE TABLE registros (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  persona_id INT NOT NULL,
+  dia DATE NOT NULL,
+  horaInicio TIME NOT NULL,
+  horaFin TIME NOT NULL,
+  horasTrabajo FLOAT NOT NULL,
+  FOREIGN KEY (persona_id) REFERENCES personas(id)
+);
+          </code></pre>
+        </div>
+      </div>
+
+      <!-- Botón de descarga -->
+      <a href="https://github.com/GuilleMorCar/Registro/archive/refs/heads/main.zip" class="descargar-proyecto" download target="_blank" rel="noopener noreferrer">
+        <i class="fa-solid fa-download"></i> Descargar carpeta del proyecto de práctica
+      </a>
     </div>
   </div>
 </section>
