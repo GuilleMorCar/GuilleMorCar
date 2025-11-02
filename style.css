@@ -353,18 +353,26 @@ footer {
   font-size: 0.95em;
 }
 
+
 .proyecto-grid {
-  display: flex;
-  flex-wrap: nowrap; /* evita que se apilen */
-  gap: 40px;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 40px 0;
-  width: 100%;
+  flex-direction: row;
 }
 
-.preview-box,
+.preview-box {
+  order: 1;
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
 .sql-box {
-  flex: 1 1 45%;
-  max-width: 45%;
+  order: 2;
+  flex: 1 1 400px;
+  max-width: 500px;
+}
+
+.descargar-proyecto {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto 0;
 }
