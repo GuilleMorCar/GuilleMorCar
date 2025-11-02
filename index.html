@@ -95,13 +95,16 @@
     <div class="tech-group">
       <h3 class="tech-subtitle">📝 Registro de jornada laboral</h3>
       <p>Aplicación web desarrollada durante mis prácticas:</p>
+      <br>
       <ul>
-        <li><strong>Frontend:</strong> HTML, CSS, JavaScript</li>
+        <li><strong>Frontend:</strong> HTML + CSS + JavaScript</li>
         <li><strong>Backend:</strong> Node.js + Express</li>
         <li><strong>Base de datos:</strong> MySQL</li>
-        <li><strong>Funcionalidad:</strong> Registro de horas de inicio y fin, con nombre y DNI como clave primaria.</li>
+        <li><strong>Funcionalidad:</strong> Registro de jornadas laborales con validación de identificador(DNI). 
+          Si la persona no existe, se crea automáticamente y se asocia a su jornada. 
+          Se almacenan día, hora de inicio, hora de fin y el cálculo de las horas trabajadas.</li>
       </ul>
-
+<br>
       <div class="proyecto-grid">
         <!-- Imagen del proyecto -->
         <div class="preview-box">
@@ -165,4 +168,5 @@ CREATE TABLE registros (
   </footer>
 </body>
 </html>
+
 
