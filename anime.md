@@ -14,8 +14,7 @@
 
 - One Punch Man
 - Shuumatsu no Valkyrie
-- El Matón al Mando
-- A Sense of Amusement
+- El Blinker Genio de la Academia Mágica 
 
 ## 🎨 Géneros que me gustan 🎨
 - Ciencia ficción y viajes en el tiempo con carga emocional
